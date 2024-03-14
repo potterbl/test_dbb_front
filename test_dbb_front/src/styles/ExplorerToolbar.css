@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    padding: 4px 14px;
+    border-bottom: 4px solid #44CFCB;
+    background-color: #4EA5D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.header-btn_back{
+    width: 35px;
+    aspect-ratio: 1;
+    background-color: transparent;
+    border: 0;
+    background-image: url("../static/arrow.svg");
+    background-size: contain;
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.header-right p{
+    color: black;
+}
+.header_btn{
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}

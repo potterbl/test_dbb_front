@@ -1,0 +1,14 @@
+{
+  "name": "test_dbb",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "concurrently \" npm install --prefix test_dbb_back \" \" npm install --prefix test_dbb_front \"",
+    "start": "concurrently \" npm run start --prefix test_dbb_back \" \" npm run start --prefix test_dbb_front \""
+  },
+  "author": "Vlad Plisko",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,64 @@
+.auth{
+    width: 600px;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #4EA5D9;
+    display: grid;
+    row-gap: 12px;
+    place-items: center;
+}
+.btn_auth{
+    padding: 8px 16px;
+    background-color: #44CFCB;
+    border: 0;
+    border-radius: 8px;
+    transition: all .3s ease;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+@media (hover: hover) {
+    .btn_auth:hover{
+        background-color: rgba(68, 207, 203, 0.7);
+    }
+}
+.btn_auth:active{
+    background-color: rgba(68, 207, 203, 0.5);
+}
+.dropbox-img_btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(18, 44, 52, 0.8);
+    display: grid;
+    place-items: center;
+}
+.loader_span {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
